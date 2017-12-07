@@ -15,14 +15,17 @@ DOMAIN = {
         'schema': {
             'firstname': {
                 'type': 'string',
-                'maxlength': 30
+                'maxlength': 30,
+                'required': True
             },
             'lastname': {
                 'type': 'string',
-                'maxlength': 30
+                'maxlength': 30,
+                'required': True
             },
             'phone': {
-                'type': 'string'
+                'type': 'string',
+                'required': True
             },
             'location': {
                 'type': 'dict',
@@ -30,6 +33,7 @@ DOMAIN = {
                     'address': {'type': 'string'},
                     'city': {'type': 'string'}
                 },
+                'required': False
             },
         }
     },
@@ -41,7 +45,8 @@ DOMAIN = {
                 'required': True
             },
             'completed': {
-                'type': 'boolean'
+                'type': 'boolean',
+                'required': True,
             },
             'assigned-to': {
                 'type': 'list',
@@ -49,7 +54,8 @@ DOMAIN = {
                     'field': '_id',
                     'resource': 'user',
                     'embeddable': True
-                }
+                },
+                'required': True
             }
         }
     }

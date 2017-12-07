@@ -1,14 +1,12 @@
 from eve import Eve
-from flask.ext.bootstrap import Bootstrap
 import flask
+from flask_bootstrap import Bootstrap
 from eve_docs import eve_docs
 
 app = Eve()
 
 accept = ["application/json", "application/xml", "*/*", "*/*;q=0.8", "application/xml;q=0.9"]
 
-app.name = 'TaskAPI'
-app.blueprints = {'name': 'TaskAPI'}
 
 @app.after_request
 def after_request(response):
