@@ -1,0 +1,1 @@
+For running the API you need `Python version 2.7` or newer.
