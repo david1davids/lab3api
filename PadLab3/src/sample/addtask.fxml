@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddTaskController">
+    <children>
+        <Pane prefHeight="242.0" prefWidth="400.0">
+            <children>
+                <TextField fx:id="taskname" layoutX="10.0" layoutY="50.0" prefHeight="25.0" prefWidth="381.0" promptText="Taskname" />
+                <Button fx:id="add" layoutX="292.0" layoutY="185.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="25.0" prefWidth="99.0" text="Add Task" />
+                <Button fx:id="back" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="25.0" prefWidth="80.0" text="Back" />
+            <CheckBox fx:id="completed" layoutX="14.0" layoutY="177.0" mnemonicParsing="false" text="Completed" />
+            <TextField fx:id="assign" layoutX="10.0" layoutY="96.0" prefHeight="25.0" prefWidth="381.0" promptText="assigned-to" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

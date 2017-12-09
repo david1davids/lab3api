@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
+   <children>
+      <Pane prefHeight="242.0" prefWidth="400.0">
+         <children>
+            <TextField fx:id="firstname" layoutX="10.0" layoutY="55.0" prefHeight="25.0" prefWidth="381.0" promptText="firstname" />
+            <TextField fx:id="lastname" layoutX="10.0" layoutY="96.0" prefHeight="25.0" prefWidth="381.0" promptText="lastname" />
+            <TextField fx:id="phone" layoutX="10.0" layoutY="139.0" prefHeight="25.0" prefWidth="381.0" promptText="phone" />
+            <Button fx:id="add" layoutX="151.0" layoutY="175.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="25.0" prefWidth="99.0" text="Add User" />
+            <Button fx:id="back" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="25.0" prefWidth="80.0" text="Back" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
