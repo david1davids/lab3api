@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="141.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Back" />
+            <ListView fx:id="list" layoutX="14.0" layoutY="56.0" prefHeight="235.0" prefWidth="773.0" />
+            <Button fx:id="previous" layoutX="331.0" layoutY="300.0" mnemonicParsing="false" onAction="#onClickPrevious" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Previous" />
+            <Button fx:id="next" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onAction="#onClickNext" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Next" />
+            <Button fx:id="add" layoutX="717.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Add User" />
+            <ListView fx:id="dataUser" layoutX="14.0" layoutY="351.0" prefHeight="200.0" prefWidth="773.0" />
+            <Button fx:id="delete" layoutX="717.0" layoutY="317.0" mnemonicParsing="false" onAction="#onClickDelete" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Delete" />
+            <Button fx:id="edit" layoutX="648.0" layoutY="317.0" mnemonicParsing="false" onAction="#onClickEdit" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Edit User" />
+         </children></Pane>
+
+   </children>
+</AnchorPane>

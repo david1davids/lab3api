@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditTaskController">
+    <children>
+        <Pane layoutY="1.0" prefHeight="198.0" prefWidth="400.0">
+            <children>
+                <TextField fx:id="taskname" layoutX="10.0" layoutY="66.0" prefHeight="25.0" prefWidth="381.0" promptText="taskname" />
+                <Button fx:id="edit" layoutX="317.0" layoutY="159.0" mnemonicParsing="false" onAction="#onClickEdit" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Edit Task" />
+                <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="33.0" prefWidth="69.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-cursor: hand;" text="Back" />
+                <CheckBox fx:id="completed" layoutX="14.0" layoutY="167.0" mnemonicParsing="false" text="Completed" />
+                <Label fx:id="labelAssign" layoutX="10.0" layoutY="228.0" prefHeight="25.0" prefWidth="381.0" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
